@@ -6,8 +6,6 @@ object maximoDeDosNumeros {
     else y
   }
   def main(args: Array[String]) {
-    
-    val num = max(6,7)
-    println(s"El maximo entre 6 y 7 es ==>  $num")
+    println("El maximo entre 6 y 7 es ==> " + max(6,7))
   }
 }
