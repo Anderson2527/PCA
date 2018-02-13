@@ -10,3 +10,4 @@
 workspace/.metadata
 workspace/Anderson/.settings
 workspace/Anderson/bin
+workspace/.metadata/.plugins/*
