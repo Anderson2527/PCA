@@ -10,4 +10,6 @@
 workspace/.metadata
 workspace/Anderson/.settings
 workspace/Anderson/bin
-workspace/.metadata/.plugins/*
+workspace/.metadata/.plugins/org.eclipse.core.resources
+workspace/.metadata/.plugins/
+/bin
