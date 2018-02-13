@@ -7,7 +7,7 @@ import scala.io.Source // Para lectura desde fichero
 object pruebaScala {
   def main(args: Array[String]) {
 
-    var op: String = "PCyA"
+    /*  var op: String = "PCyA"
     var op1: String = "P"
     var op2: String = "C"
     var op3: String = "y"
@@ -36,21 +36,18 @@ object pruebaScala {
     if (op == "PCyA") {
       println("\n Conjunto completo teclas magicas: " + op)
       println("\n Winner :)")
-    }
-
-  }
-}
-
- //2.1.1
-    /* (0 to 10).foreach(println)*/
-
+    }*/
+    //2.1.1
+    //(0 to 10).foreach(println)
+    
     //2.1.2
     /* for (i <- 1 to 5; j <- 6 to 10) {
       println("i: " + i + " j: " + j)
     }*/
-
-    //2.1.3
-    /*  var i = 0    def imprimePrimos() {
+    
+     //2.1.3
+      var i = 0   
+      def imprimePrimos() {
       val listaPrimos = List(1, 2, 3, 5, 7, 11)
       for (i <- listaPrimos) {
         if (i == 11) {
@@ -61,8 +58,15 @@ object pruebaScala {
         }
       }
     }
+    imprimePrimos
+  }
+}
 
-    imprimePrimos*/
+ 
+
+    
+
+   
 
     //2.1.4
     /*  var opcion: String = "PCyA"
