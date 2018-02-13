@@ -39,14 +39,14 @@ object pruebaScala {
     }*/
     //2.1.1
     //(0 to 10).foreach(println)
-    
+
     //2.1.2
     /* for (i <- 1 to 5; j <- 6 to 10) {
       println("i: " + i + " j: " + j)
     }*/
-    
-     //2.1.3
-      var i = 0   
+
+    //2.1.3
+    /* var i = 0
       def imprimePrimos() {
       val listaPrimos = List(1, 2, 3, 5, 7, 11)
       for (i <- listaPrimos) {
@@ -58,18 +58,10 @@ object pruebaScala {
         }
       }
     }
-    imprimePrimos
-  }
-}
-
- 
-
-    
-
-   
+    imprimePrimos*/
 
     //2.1.4
-    /*  var opcion: String = "PCyA"
+    /*var opcion: String = "PCyA"
     do {
       print("Teclea opción ")
       opcion = readLine.toString
@@ -77,15 +69,17 @@ object pruebaScala {
     printf("Tecleaste la opción mágica %s \n", "PCyA")*/
 
     //2.1.5
-    /*def obtenerSuma(args: Int*): Int = {
+    /* def obtenerSuma(args: Int*): Int = {
       var suma: Int = 0
       for (num <- args) {
         suma += num
       }
       suma
-    }
-    println("Suma obtenida " + obtenerSuma(1, 2, 3, 4, 5, 6))*/
-    /* def obtenerSuma(args: Int*): Int = {
+    }*/
+    def obtenerSuma(args: Int*): Int = {
       (0 /: args)(_ + _)
     }
-    println("Suma obtenida " + obtenerSuma(1, 2, 3, 4, 5, 6))*/
+    println("Suma obtenida " + obtenerSuma(1, 2, 3, 4, 5, 6))
+  }
+}
+//println("Suma obtenida " + obtenerSuma(1, 2, 3, 4, 5, 6))*/

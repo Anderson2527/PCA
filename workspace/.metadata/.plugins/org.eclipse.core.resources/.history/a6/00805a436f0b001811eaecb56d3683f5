@@ -1,8 +1,0 @@
-object ScalaDemoApp extends App {
-
-  def main(args: Array[String]) {
-    println("Bienvenidos a Scala")
-
-  }
-
-}
