@@ -1,0 +1,77 @@
+import scala.io.StdIn.{ readLine, readInt } // Para lectura de datos
+import scala.math._ // Para funciones matemáticas
+import scala.collection.mutable.ArrayBuffer // Para arrays variables
+import java.io.PrintWriter // Para imprimir en fichero
+import scala.io.Source // Para lectura desde fichero
+import java.util.Scanner
+import scala.io.StdIn
+
+object pruebaScala {
+  def main(args: Array[String]) {
+
+    var op: String = "PCyA"
+
+    println("Introduce una opcion: ")
+    op = readLine.toString
+
+    while (op != "PCyA" ) {
+      
+      if(op == "p" || op == "P"){
+        println("La tecla que has introducido forma parte de la cadena")
+      }
+      
+      println("Continua Buscando las otras teclas que formen el conjunto magico, SUERTE")
+      op = readLine.toString
+    }
+    if (op == "PCyA") {
+      println("La tecla magica es: " + op)
+      println("Winner :)")
+    }
+
+  }
+}
+
+ //2.1.1
+    /* (0 to 10).foreach(println)*/
+
+    //2.1.2
+    /* for (i <- 1 to 5; j <- 6 to 10) {
+      println("i: " + i + " j: " + j)
+    }*/
+
+    //2.1.3
+    /*  var i = 0    def imprimePrimos() {
+      val listaPrimos = List(1, 2, 3, 5, 7, 11)
+      for (i <- listaPrimos) {
+        if (i == 11) {
+          return
+        }
+        if (i != 1) {
+          println(i)
+        }
+      }
+    }
+
+    imprimePrimos*/
+
+    //2.1.4
+    /*  var opcion: String = "PCyA"
+    do {
+      print("Teclea opción ")
+      opcion = readLine.toString
+    } while (opcion != "PCyA")
+    printf("Tecleaste la opción mágica %s \n", "PCyA")*/
+
+    //2.1.5
+    /*def obtenerSuma(args: Int*): Int = {
+      var suma: Int = 0
+      for (num <- args) {
+        suma += num
+      }
+      suma
+    }
+    println("Suma obtenida " + obtenerSuma(1, 2, 3, 4, 5, 6))*/
+    /* def obtenerSuma(args: Int*): Int = {
+      (0 /: args)(_ + _)
+    }
+    println("Suma obtenida " + obtenerSuma(1, 2, 3, 4, 5, 6))*/

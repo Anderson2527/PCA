@@ -1,0 +1,12 @@
+import scala.io.StdIn.{ readLine, readInt } // Para lectura de datos
+import scala.math._ // Para funciones matemáticas
+import scala.collection.mutable.ArrayBuffer // Para arrays variables
+import java.io.PrintWriter // Para imprimir en fichero
+import scala.io.Source // Para lectura desde fichero
+
+object pruebaScala {
+  def main(args: Array[String]) {
+
+    // Cuerpo de la prueba concreta
+  }
+}
