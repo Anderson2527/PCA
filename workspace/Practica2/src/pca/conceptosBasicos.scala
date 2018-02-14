@@ -36,7 +36,7 @@ object conceptosBasicos {
     headerExcercice("2.1.4")
     var opcion: String = "PCyA"
     do {
-      println("Teclea opción ")
+      print("Teclea opción ")
       opcion = readLine()
     } while (opcion != "PCyA")
 
