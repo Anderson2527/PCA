@@ -40,7 +40,7 @@ object conceptosBasicos {
       opcion = readLine()
     } while (opcion != "PCyA")
 
-    printf("Tecleaste la opción mágica %s \n", "PCyA")
+    printf("Tecleaste la oppcion magica  %s \n", "PCyA")
 
     headerExcercice("Con for 2.1.5")
 
